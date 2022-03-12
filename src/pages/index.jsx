@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Page,
   Navbar,
@@ -7,16 +7,16 @@ import {
   ListItem,
   useStore,
   Card,
-} from 'zmp-framework/react';
-import AppItems from '../components/app-items';
-import UserCard from '../components/user-card';
+} from "zmp-framework/react";
+import AppItems from "../components/app-items";
+import UserCard from "../components/user-card";
 
 const HomePage = () => {
-  const user = useStore('user');
+  const user = useStore("user");
   return (
     <Page name="home" navbarLarge>
       {/* Top Navbar */}
-      <Navbar >
+      <Navbar>
         <NavTitleLarge>FunApp</NavTitleLarge>
       </Navbar>
       {/* Page content */}
@@ -35,11 +35,18 @@ const HomePage = () => {
 
       {/* Route */}
       <List>
-        <ListItem title="Dynamic (Component) Route" link="/dynamic-route/?blog=45&post=125&foo=bar" />
-        <ListItem title="Default Route (404)" link="/something-that-doesnt-exist" />
+        <ListItem title="ChoTot Product" link="/chotot-product" />
+        <ListItem
+          title="Dynamic (Component) Route"
+          link="/dynamic-route/?blog=45&post=125&foo=bar"
+        />
+        <ListItem
+          title="Default Route (404)"
+          link="/something-that-doesnt-exist"
+        />
         <ListItem title="About" link="/about/" />
       </List>
     </Page>
   );
-}
+};
 export default HomePage;
