@@ -17,6 +17,7 @@ import 'zmp-framework/zmp-bundle.min.css';
 // Import Icons and App Custom Styles
 import './css/icons.css';
 import './css/app.scss';
+import './css/tailwind.css';
 
 // Import App Component
 import App from './components/app.jsx';
