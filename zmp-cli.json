@@ -1,0 +1,18 @@
+{
+  "cwd": "/Users/michael/fun-app",
+  "newProject": true,
+  "name": "FunApp",
+  "framework": "react",
+  "template": "single-view",
+  "cssPreProcessor": "scss",
+  "includeTailwind": true,
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false,
+    "useUiKits": true
+  },
+  "customBuild": false
+}
