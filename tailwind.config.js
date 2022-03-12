@@ -4,6 +4,10 @@ module.exports = {
     content: ['./src/**/*.{js,jsx,ts,tsx}'],
   },
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        venetianRed: '#d0021b'
+      }
+    },
   },
 };
